@@ -1,0 +1,26 @@
+@import '~typeface-roboto';
+
+footer {
+  width: 100%;
+  font-family: 'Roboto', sans-serif;
+  background-color: #15616D;
+  color: #EFEFEF;
+  margin-top: auto;
+  padding: 1rem 0;
+}
+
+.footer__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer__title {
+  font-weight: bold;
+  font-size: 120%;
+  text-align: center;
+}
+
+.copyright {
+  color: #ccc;
+}

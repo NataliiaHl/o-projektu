@@ -22,7 +22,7 @@ header {
     flex-direction: column;
     align-items: flex-start;
     background-color: #15616D;
-    
+
 }
 
 .nav-btn {
@@ -55,25 +55,21 @@ header {
     .rollout-nav {
         padding: 0;
         display: flex;
-        flex-direction: row;  
+        flex-direction: row;
     }
-  
+
     .rollout-nav a {
         border-bottom: 1px solid transparent;
         text-decoration: none;
         margin: 1rem;
     }
-  
+
     .rollout-nav a:hover {
         border-bottom: 3px solid #c62828;
         cursor: pointer;
     }
-  
+
     .nav-btn {
         display: none;
     }
 }
-
-
-
-
