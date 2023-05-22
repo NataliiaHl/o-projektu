@@ -6,7 +6,6 @@ import Footer from "../../components/Footer";
 const HomePage = () => {
   return (
     <div>
-      <Header />
       <main>
         <h1>Program pro trénink psaní na klávesnici</h1>
         <p>
@@ -14,8 +13,8 @@ const HomePage = () => {
         </p>
         <img src="" alt="" />
       </main>
-      <Footer />
     </div>
+   
   )
 }
 
