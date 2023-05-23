@@ -3,6 +3,8 @@
 html {
   box-sizing: border-box;
   font-family: 'Open Sans', sans-serif;
+  height: 100%;
+
 }
 
 *,
@@ -13,7 +15,18 @@ html {
   padding: 0;
 }
 
-.container {
+body {
+  width: 100%;
+  min-height: 100vh;
+  font-family: sans-serif;
+  margin: 0;
+  background: transparent linear-gradient(105deg, #0F2027 0%, #203A43 59%, #2C5364 100%) 0% 0% no-repeat padding-box;
+  display: flex;
+  flex-direction: column;
+}
+
+.main-container {
   margin-right: auto;
   margin-left: auto;
+  flex-grow: 1;
 }

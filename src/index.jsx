@@ -10,11 +10,11 @@ import AboutTeam from './pages/AboutTeam'
 
 const App = () => {
   return (
-    <div className="container">
+    <div className="main-container">
       <Header />
       <HomePage />
       <Footer />
-  </div>
+    </div>
   );
 };
 

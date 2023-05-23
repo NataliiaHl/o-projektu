@@ -1,20 +1,21 @@
 import React from "react";
 import './style.css'
-import Header from "../../components/Header";
-import Footer from "../../components/Footer";
+
 
 const HomePage = () => {
   return (
-    <div>
-      <main>
+    <section className="homepage-section active">
+      <div className="homepage-heading">
         <h1>Program pro trénink psaní na klávesnici</h1>
         <p>
           Zlepši své psaní a získej nejen rychlost, přesnost a schopnost psát naslepo, ale diky <span>FastFingers</span> zvýšíš produktivitu a šanci na trhu práce
         </p>
+      </div>
+      <div className="homepage-image" >
         <img src="" alt="" />
-      </main>
-    </div>
-   
+      </div>
+    </section>
+
   )
 }
 

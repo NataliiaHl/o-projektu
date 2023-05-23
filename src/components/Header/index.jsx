@@ -16,15 +16,11 @@ const Header = () => {
                 <div className="navigation">
                     <button className="nav-btn" onClick={toggleNav}></button>
                     <div className={`rollout-nav ${!navOpen ? 'nav-closed' : ''}`}>
-                        <a>
-                            <Link to="/">Úvod</Link>
-                        </a>
-                        <a>
-                            <Link to="/about_project">O projektu</Link>
-                        </a>
-                        <a>
-                            <Link to="/about_team">Náš tým</Link>
-                        </a>
+
+                        <Link to="/">Úvod</Link>
+                        <Link to="/about_project">O projektu</Link>
+                        <Link to="/about_team">Náš tým</Link>
+
                     </div>
                 </div>
             </div>

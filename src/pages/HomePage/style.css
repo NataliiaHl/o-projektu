@@ -1,0 +1,32 @@
+.homepage-section {
+  height: 80vh;
+  width: 700px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  position: fixed;
+  padding-left: 2rem;
+}
+
+.homepage-heading {
+  margin-bottom: 15px;
+  font-size: 2rem;
+  font-weight: 400;
+  color: #fff;
+  opacity: 0.8;
+}
+
+.homepage-heading h1 {
+  text-transform: uppercase;
+  margin-bottom: 2rem;
+  opacity: 0.8;
+}
+
+.homepage-heading p {
+  font-size: 1.5rem;
+  margin: 15px;
+  opacity: 0.5;
+  line-height: 2rem;
+}

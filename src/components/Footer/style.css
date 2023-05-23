@@ -3,24 +3,28 @@
 footer {
   width: 100%;
   font-family: 'Roboto', sans-serif;
-  background-color: #15616D;
-  color: #EFEFEF;
-  margin-top: auto;
+  background: transparent;
+  color: white;
   padding: 1rem 0;
+  position: fixed;
+  bottom: 0;
 }
 
-.footer__container {
+.footer-container {
   display: flex;
   flex-direction: column;
   align-items: center;
+  opacity: 0.8;
+  line-height: 1.8rem;
+
 }
 
-.footer__title {
+.footer-title {
   font-weight: bold;
   font-size: 120%;
   text-align: center;
 }
 
-.copyright {
+.footer-text {
   color: #ccc;
 }
