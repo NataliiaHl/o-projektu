@@ -28,7 +28,7 @@
   line-height: 1.5rem;
 }
 
-img {
+.homepage-image img {
   width: 70vw;
   margin-top: 1rem;
 }
@@ -64,7 +64,7 @@ img {
     line-height: 2rem;
   }
   
-  img {
+  .homepage-image img {
     width: 40vw;
   }
 }

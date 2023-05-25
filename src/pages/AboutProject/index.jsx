@@ -3,6 +3,7 @@ import './style.css'
 
 
 const AboutProject = () => {
+
   return (
     <section className="project-section active">
       <h1 className="project-title">O projektu</h1>
@@ -20,6 +21,12 @@ const AboutProject = () => {
         <p>
           Testy ve FastFingers budou rozděleny podle úrovně obtížnosti, což umožní postupovat od jednodušších cvičení až po náročnější úlohy. Po absolvování testu uživatel obdrží podrobné vyhodnocení výkonu, které zahrnuje počet chyb a rychlost psaní.
         </p>
+      </div>
+      <div className="project-gallery">
+        <img src="./img/prototype_homepage.png" alt="prototype HomePage" />
+        <img src="./img/prototype_exercise1.png" alt="prototype exercise1" />
+        <img src="./img/prototype_exercise2.png" alt="prototype exercise2" />
+        <img src="./img/prototype_test.png" alt="prototype Test" />
       </div>
     </section >
   )
