@@ -1,12 +1,9 @@
 import React from "react";
 import './style.css'
-import Header from "../../components/Header";
-import Footer from "../../components/Footer";
 
 const AboutProject = () => {
   return (
     <div>
-      <Header />
       <main>
         <h1 className="title">O projektu</h1>
         <p>
@@ -23,7 +20,6 @@ const AboutProject = () => {
           Testy ve FastFingers budou rozděleny podle úrovně obtížnosti, což umožní postupovat od jednodušších cvičení až po náročnější úlohy. Po absolvování testu uživatel obdrží podrobné vyhodnocení výkonu, které zahrnuje počet chyb a rychlost psaní.
         </p>
       </main>
-      <Footer />
     </div>
   )
 }

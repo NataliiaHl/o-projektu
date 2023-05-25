@@ -12,7 +12,7 @@ const HomePage = () => {
         </p>
       </div>
       <div className="homepage-image" >
-        <img src="" alt="" />
+        <img src="./img/laptop.png" alt="laptop_photo" />
       </div>
     </section>
 

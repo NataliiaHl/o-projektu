@@ -28,3 +28,9 @@ footer {
 .footer-text {
   color: #ccc;
 }
+
+@media (max-width: 768px) {
+  .footer-container {
+    line-height: 1.3rem;
+  }
+}
