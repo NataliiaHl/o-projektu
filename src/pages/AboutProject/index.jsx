@@ -1,16 +1,17 @@
 import React from "react";
 import './style.css'
 
+
 const AboutProject = () => {
   return (
-    <div>
-      <main>
-        <h1 className="title">O projektu</h1>
+    <section className="project-section active">
+      <h1 className="project-title">O projektu</h1>
+      <div className="project-content">
         <p>
-          Naší cílovou skupinou jsou všichni, kteří chtějí zlepšit své psaní na klávesnici a získat nejen rychlost, přesnost a schopnost psát naslepo, ale i zvýšit produktivitu a šanci na trhu práce.
+          FastFingers - aplikace pro výuku psaní deseti prsty. Tato aplikace slouží k efektivnímu zlepšování dovedností psaní na klávesnici.
         </p>
         <p>
-          FastFingers - aplikaci pro výuku psaní deseti prsty. Tato aplikace slouží k efektivnímu zlepšování dovedností psaní na klávesnici.
+          Naší cílovou skupinou jsou všichni, kteří chtějí zlepšit své psaní na klávesnici a získat nejen rychlost, přesnost a schopnost psát naslepo, ale i zvýšit produktivitu a šanci na trhu práce.
         </p>
         <p>
           Aplikace bude obsahovat pravidla, cvičení a testy, které provedou uživatele procesem učení a zdokonalování psacích schopností.
@@ -19,8 +20,8 @@ const AboutProject = () => {
         <p>
           Testy ve FastFingers budou rozděleny podle úrovně obtížnosti, což umožní postupovat od jednodušších cvičení až po náročnější úlohy. Po absolvování testu uživatel obdrží podrobné vyhodnocení výkonu, které zahrnuje počet chyb a rychlost psaní.
         </p>
-      </main>
-    </div>
+      </div>
+    </section >
   )
 }
 
