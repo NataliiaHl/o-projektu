@@ -50,7 +50,7 @@ header {
     cursor: pointer;
 }
 
-a {
+.rollout-nav a {
     display: block;
     color: #fff;
     text-decoration: none;

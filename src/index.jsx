@@ -7,6 +7,7 @@ import Footer from './components/Footer';
 import HomePage from './pages/HomePage'
 import AboutProject from './pages/AboutProject'
 import AboutTeam from './pages/AboutTeam'
+import ErrorPage from './pages/ErrorPage';
 
 const App = () => {
   return (
@@ -22,6 +23,7 @@ const router = createBrowserRouter([
   {
     path: '/',
     element: <App />,
+    errorElement: <ErrorPage />,
     children: [
       {
         path: '/',

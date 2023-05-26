@@ -1,13 +1,13 @@
 .author__card {
-  /* margin: 20px; */
   padding: 20px;
   border: 1px solid #ccc;
   border-radius: 5px;
   box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
   background-color: #fff;
-  max-width: 25rem;
+  width: 25rem;
   height: 77vmin;
   opacity: 0.8;
+  margin-top: 1rem;
 }
 
 div .author__container {
@@ -23,7 +23,7 @@ div .author__container {
   align-items: center;
 }
 
-.author__header h1 {
+.author__header h2 {
   margin-bottom: 1rem;
 }
 
@@ -52,5 +52,11 @@ p.author__text {
 .socials__icon-email,
 .social__icon-linkedin {
   width: 2em;
+}
 
+@media (min-width: 768px) {
+  .author__card {
+  width: 25rem;
+  height: auto;
+  }
 }
