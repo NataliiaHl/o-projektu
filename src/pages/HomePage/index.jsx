@@ -56,7 +56,7 @@ const HomePage = () => {
           eraseSpeed={100}
         />
         <p className="homepage-subheading">
-          Zlepši své psaní a získej nejen rychlost, přesnost a schopnost psát naslepo, ale i zvýš svou produktivitu a šanci na trhu práce.
+          Zlepši své psaní a získej nejen rychlost, přesnost a schopnost psát naslepo, ale zvýš svou produktivitu a šanci na trhu práce.
         </p>
       </div>
       <div className="homepage-image" >
