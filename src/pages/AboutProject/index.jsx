@@ -8,32 +8,37 @@ const AboutProject = () => {
     <section className="project-section active">
       <h1 className="project-title">O projektu</h1>
       <div className="project-content">
-        <p>
+        <p className="project-text">
           FastFingers je aplikace zaměřena na zdokonalování psacích schopností na klávesnici všemi deseti.
         </p>
-        <p>
-          Většina z nás, kteří používáme počítače, jistě vyzkoušela nějakou aplikaci na psaní všemi deseti. Ale jen málokdo vydržel celý nudný výukový proces a skutečně dosáhl pokroku v ovládání této dovednosti. My jsme se právě stali jedněmi z těch, kdo to nakonec vzdali. Proto jsme si řekli, že když už jsme nadšení pro IT a práce s klávesnicí se stala naší denní rutinou, měli bychom se naučit této dovednosti a usnadnit si tak práci. To nás přivedlo k myšlence vytvořit vlastní aplikaci, která nás bude k tomu motivovat a zároveň nabídnout možnost všem, kteří by si chtěli vylepšit své psací schopnosti. Zároveň jsme měli za cíl vytvořit aplikaci, která nám umožní dále rozšiřovat a zdokonalovat naše technické dovednosti prostřednictvím implementace her a inovativních funkcí.
+        <p className="project-text">
+          Většina z nás, kteří používáme počítače, jistě vyzkoušela nějakou aplikaci na psaní všemi deseti. Ale jen málokdo vydržel celý nudný výukový proces a skutečně dosáhl pokroku v ovládání této dovednosti. My jsme se právě stali jedněmi z těch, kdo to nakonec vzdali. Proto jsme si řekli, že když už jsme nadšení pro IT a práce s klávesnicí se stala naší denní rutinou, měli bychom se naučit této dovednosti a usnadnit si tak práci. To nás přivedlo k myšlence vytvořit vlastní aplikaci, která nás bude k tomu motivovat a zároveň nabídnout možnost všem, kteří by si chtěli vylepšit své psací schopnosti.
         </p>
-        <p>
-          Velmi atraktivním prvkem pro nás je využití této aplikace pro generování textů pomocí umělé inteligence. Kdy uživatel nebude pouze opisovat statická cvičení, ale bude mít možnost vytvářet dynamické a poutavé texty, které se přizpůsobují jejich zajmu a kreativite.
+        <p className="project-text">
+          Jedním z dalších našich cílů bylo vytvořit aplikaci, která nám umožní nadále rozšiřovat a zdokonalovat naše technické dovednosti prostřednictvím implementace her, klávesových zkratek a dalších inovativních funkcionalit.
+        </p>
+        <p className="project-text">
+          Velmi atraktivním prvkem pro nás je využití této aplikace pro generování textů pomocí umělé inteligence. Kdy uživatel nebude pouze opisovat statická cvičení, ale bude mít možnost vytvářet dynamické a poutavé texty, které se přizpůsobují jejich zajmu a kreativite. Ale to už je záležitost, kterou si zatím necháme na holografického psa časů!
         </p>
         <h1 className="project-title">Proces vyvoje aplikace</h1>
-        <p>
+        <p className="project-text">
           Aplikace bude obsahovat pravidla, cvičení, testy a hry zaměřené na konkrétní dovednosti, které si uživatelé budou moci vybrat a nastavit vlastní tempo a úroveň obtížnosti, aby si trénink mohli přizpůsobit svým potřebám.
-          Při cvičení se na obrazovce zobrazí text, který uživatel bude muset přepsat na klávesnici. Pro zvýšení interaktivity bude na obrazovce také zobrazen obrázek ruky, který ukazuje, který prst použít pro stisknutí jednotlivých kláves. Klávesnice bude zobrazena s vyznačením aktuálně potřebného znaku a příslušného prstu na obrázku ruky. Po absolvování testu obdrží uživatel vyhodnocení svého výkonu, které zahrnuje počet chyb a rychlost psaní.
         </p>
-        <h3>Fáze vyvoje:</h3>
-        <ol>
+        <p className="project-text">
+          Při cvičení se na obrazovce zobrazí text, který uživatel by měl přepsat na klávesnici. Pro zvýšení interaktivity bude na obrazovce také zobrazen obrázek ruky, který ukazuje, který prst použít pro stisknutí jednotlivých kláves. Klávesnice bude zobrazena s vyznačením aktuálně potřebného znaku a příslušného prstu na obrázku ruky. Po absolvování testu obdrží uživatel vyhodnocení svého výkonu, které zahrnuje počet chyb a rychlost psaní.
+        </p>
+        <h3 className="project-subtitle">Fáze vyvoje:</h3>
+        <ol className="custom-ol">
           <li>
             Úvod:
-            <ul>
+            <ul className="custom-ul">
               <li>Stručný popis aplikace FastFingers a jejího účelu.</li>
               <li>Specifikace cílové skupiny uživatelů.</li>
             </ul>
           </li>
           <li>
             Analýza a plánování:
-            <ul>
+            <ul className="custom-ul">
               <li>
                 Provedli jsme analýzu existujících aplikací s podobnou funkcionalitou a identifikovali jsme mezery a slabé stránky, které bychom mohli vylepšit.
               </li>
@@ -47,7 +52,7 @@ const AboutProject = () => {
           </li>
           <li>
             Návrh uživatelského rozhraní:
-            <ul>
+            <ul className="custom-ul">
               <li>
                 Navrhli jsme uživatelské rozhraní pomocí nástroje Figma s důrazem na jednoduchost, intuitivnost a přehlednost pro snadné a efektivní využívání aplikace.
               </li>
@@ -55,20 +60,20 @@ const AboutProject = () => {
           </li>
           <li>
             Implementace:
-            <ul>
+            <ul className="custom-ul">
               <li>S podporou Reactu jsme začali implementovat jednotlivé komponenty.</li>
             </ul>
           </li>
           <li>
             Testování a ladění:
-            <ul>
-              <li>Během implementace provádíme důkladné testování, kdy na základě různých scénářů ověřujeme správnou funkčnost aplikace.</li>
+            <ul className="custom-ul">
+              <li>Během implementace jednotlivých částí kódu provádíme důkladné testování, kdy na základě různých scénářů ověřujeme správnou funkčnost aplikace.</li>
             </ul>
           </li>
           <li>
             Dokumentace:
-            <ul>
-              <li>Plánujeme vytvořit dokumentaci k aplikaci FastFingers obsahující popis funkcí, použitých technologií a postupů.</li>
+            <ul className="custom-ul">
+              <li>Vytvoření detailní dokumentace k aplikaci FastFingers obsahující popis funkcí, použitých technologií a postupů.</li>
             </ul>
           </li>
         </ol>
