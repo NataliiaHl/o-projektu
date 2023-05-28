@@ -4,16 +4,19 @@
   border-radius: 5px;
   box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
   background-color: #fff;
-  width: 25rem;
-  height: 77vmin;
+  height: auto;
   opacity: 0.8;
   margin-top: 1rem;
 }
 
 div .author__container {
   width: 100%;
+  height: 100%;
   margin: 0;
   padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .author__header {
@@ -56,7 +59,13 @@ p.author__text {
 
 @media (min-width: 768px) {
   .author__card {
-  width: 25rem;
-  height: auto;
+    width: 25rem;
+    height: 95vh;
+  }
+}
+
+@media (min-width: 1440px) {
+  .author__card {
+   height: 70vh;
   }
 }
