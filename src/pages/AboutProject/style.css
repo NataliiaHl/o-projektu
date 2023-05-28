@@ -47,6 +47,7 @@
 .custom-ol li,
 .custom-ul li {
   margin-bottom: 1rem;
+  margin-top: 1rem;
 }
 
 .custom-ol li:before {
