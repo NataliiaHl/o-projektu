@@ -17,9 +17,6 @@ const AboutProject = () => {
         <p className="project-text">
           Jedním z dalších našich cílů bylo vytvořit aplikaci, která nám umožní nadále rozšiřovat a zdokonalovat naše technické dovednosti prostřednictvím implementace her, klávesových zkratek a dalších inovativních funkcionalit.
         </p>
-        <p className="project-text">
-          Velmi atraktivním prvkem pro nás je využití této aplikace pro generování textů pomocí umělé inteligence. Kdy uživatel nebude pouze opisovat statická cvičení, ale bude mít možnost vytvářet dynamické a poutavé texty, které se přizpůsobují jejich zajmu a kreativite. Ale to už je záležitost, kterou si zatím necháme na holografického psa časů!
-        </p>
         <h1 className="project-title">Proces vyvoje aplikace</h1>
         <p className="project-text">
           Aplikace bude obsahovat pravidla, cvičení, testy a hry zaměřené na konkrétní dovednosti, které si uživatelé budou moci vybrat a nastavit vlastní tempo a úroveň obtížnosti, aby si trénink mohli přizpůsobit svým potřebám.
