@@ -4,8 +4,7 @@
   border-radius: 5px;
   box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
   background-color: #fff;
-  width: 25rem;
-  height: 77vmin;
+  height: auto;
   opacity: 0.8;
   margin-top: 1rem;
 }
@@ -31,6 +30,12 @@
 @media (min-width: 768px) {
   .mentors__card {
     width: 25rem;
-    height: auto;
+    height: 95vh;
+  }
+}
+
+@media (min-width: 1440px) {
+  .mentors__card {
+    height: 70vh;
   }
 }
