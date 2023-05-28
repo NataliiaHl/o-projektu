@@ -20,7 +20,8 @@ const Inna = () => {
           Poté, co COVID zasáhl letecký průmysl, rozhodla jsem se hledat uplatnění v jiném oboru a nakonec jsem se nadchla pro webovy vyvoj.
         </p>
         <p className='author__text'>
-          Kromě IT a létání mám také ráda cestování, neustálé zdokonalování se, aktivní životní styl a přírodu.Relaxuji hrou na klavír a posloucháním saxofonové hudby.
+          Kromě IT a létání mám také ráda cestování, neustálé zdokonalování se, aktivní životní styl a přírodu.
+          Relaxuji hrou na klavír a posloucháním saxofonové hudby.
         </p>
 
 

@@ -12,9 +12,9 @@ const AboutTeam = () => {
     <>
       <div className="team__section active">
         <div className="team__container">
-          <Inna />
-          <Mentors />
           <Natali />
+          <Mentors />
+          <Inna />
         </div>
       </div>
     </>
