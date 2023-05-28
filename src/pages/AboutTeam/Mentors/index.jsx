@@ -2,14 +2,18 @@ import React from "react";
 import './style.css'
 
 const Mentors = () => {
-    return(
+    return (
         <div className='mentors__card'>
             <div className="mentors__container">
                 <h2>Naše práce s mentory</h2>
-                <p className="mentors_text"></p>
+                <p className="mentors_text">
+                    Máme velké štěstí, že máme tak výjimečné a ochotné mentory - Martin Havel a Lam Tran, kteří se aktivně zapojují do naší práce. Díky nim společně tvoříme <em>silný tým</em>. S jejich podporou se každé setkání v příjemných prostorách
+                    <a href="https://vnitroblock.cz/" target="blank"><strong> Vnitrobloku </strong></a>
+                    stává neocenitelným zdrojem inspirace, ktere nám pomáhají stávat se lepšími a rozvíjet naše schopnosti.
+                </p>
                 <img className="mentors_photo"
-                src={require('../img/mentors1.jpg')}
-                alt="Photo with mentors" />
+                    src={require('../img/mentors1.jpg')}
+                    alt="Photo with mentors" />
             </div>
         </div>
     )
