@@ -49,8 +49,6 @@ p.author__text {
   margin-top: 1rem;
 }
 
-.social__links {}
-
 .socials__icon-github,
 .socials__icon-email,
 .social__icon-linkedin {
@@ -66,6 +64,6 @@ p.author__text {
 
 @media (min-width: 1440px) {
   .author__card {
-   height: 70vh;
+    height: 75vh;
   }
 }
