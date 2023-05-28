@@ -75,10 +75,15 @@ const AboutProject = () => {
         </ol>
       </div>
       <div className="project-gallery">
-        <img src="./img/prototype_homepage.png" alt="prototype HomePage" />
-        <img src="./img/prototype_exercise1.png" alt="prototype exercise1" />
-        <img src="./img/prototype_exercise2.png" alt="prototype exercise2" />
-        <img src="./img/prototype_test.png" alt="prototype Test" />
+        <div className="gallery-firstcolumn">
+          <img src="./img/prototype_homepage.png" alt="prototype Home Page" />
+          <img src="./img/prototype_exercise.png" alt="prototype Exercise" />
+        </div>
+        <div className="gallery-secondcolumn">
+          <img src="./img/prototype_login.png" alt="prototype Login" />
+          <img src="./img/prototype_exercise2.png" alt="prototype Exercise List" />
+          <img src="./img/prototype_test.png" alt="prototype Test" />
+        </div>
       </div>
     </section >
   )
