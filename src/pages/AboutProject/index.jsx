@@ -12,7 +12,7 @@ const AboutProject = () => {
           FastFingers je aplikace zaměřená na zdokonalování schopností psaní na klávesnici všemi deseti.
         </p>
         <p className="project-text">
-          Většina z nás, kteří používáme počítače, jistě vyzkoušela nějakou aplikaci pro psaní všemi deseti. Ale jen málokdo vydržel celý nudný výukový proces a skutečně dosáhl pokroku v ovládání této dovednosti. My jsme se právě staly jedněmi z těch, kdo to nakonec vzdaly. Proto jsme si řekly, že když už jsme se nadchly pro IT a práce s klávesnicí se stala naší denní rutinou, měly bychom se naučit tuto dovednost a usnadnit si tak práci. To nás přivedlo k myšlence vytvořit vlastní aplikaci, která nás bude k tomu motivovat a zároveň nabídne možnost všem, kteří by si chtěli vylepšit své schopnosti psaní.
+          Většina z nás, kteří používáme počítače, jistě vyzkoušela nějakou aplikaci pro psaní všemi deseti. Ale jen málokdo vydržel celý nudný výukový proces a skutečně dosáhl pokroku v ovládání této dovednosti. My jsme se právě staly jedněmi z těch, kdo to nakonec vzdaly. Proto jsme si řekly, že když už jsme se nadchly pro IT a práce s klávesnicí se stala naší denní rutinou, měly bychom se naučit tuto dovednost a usnadnit si tak práci. To nás přivedlo k myšlence vytvořit vlastní aplikaci, která nás k tomu bude motivovat a zároveň nabídne možnost všem, kteří by si chtěli vylepšit své schopnosti psaní.
         </p>
         <p className="project-text">
           Jedním z našich dalších cílů bylo vytvořit aplikaci, která nám umožní nadále rozšiřovat a zdokonalovat naše technické dovednosti prostřednictvím implementace her a dalších inovativních funkcionalit.
@@ -22,7 +22,7 @@ const AboutProject = () => {
           Aplikace bude obsahovat pravidla, cvičení, testy a hry zaměřené na konkrétní dovednosti, které si uživatelé budou moci vybrat, nastavit vlastní tempo a úroveň obtížnosti, aby si trénink mohli přizpůsobit svým potřebám.
         </p>
         <p className="project-text">
-          Při cvičení se na obrazovce zobrazí text, který by měl uživatel přepsat na klávesnici. Pro zvýšení interaktivity bude na obrazovce také zobrazen obrázek rukou, který zobrazí, který prst použít pro stisknutí jednotlivých kláves. Klávesnice bude zobrazena s vyznačením aktuálně potřebného znaku a příslušného prstu na obrázku ruky. Po absolvování testu obdrží uživatel vyhodnocení svého výkonu, které zahrnuje počet chyb a rychlost psaní.
+          Při cvičení se na obrazovce zobrazí text, který by měl uživatel přepsat na klávesnici. Pro zvýšení interaktivity bude na obrazovce také zobrazen obrázek rukou, který ukáže, který prst použít pro stisknutí jednotlivých kláves. Klávesnice bude zobrazena s vyznačením aktuálně potřebného znaku a příslušného prstu na obrázku ruky. Po absolvování testu obdrží uživatel vyhodnocení svého výkonu, které zahrnuje počet chyb a rychlost psaní.
         </p>
         <h3 className="project-subtitle">Fáze vývoje:</h3>
         <ol className="custom-ol">
