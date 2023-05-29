@@ -1,5 +1,5 @@
 import React from 'react';
-import './style.css'
+import './style.css';
 
 
 const Inna = () => {
@@ -17,13 +17,12 @@ const Inna = () => {
         </p>
         <p className='author__text'>
           Vystudovala jsem ekonomický obor se zaměřením na leteckou dopravu a nějakou dobu jsem se pohybovala ve vzduchu jako letuška.
-          Poté, co COVID zasáhl letecký průmysl, rozhodla jsem se hledat uplatnění v jiném oboru a nakonec jsem se nadchla pro webovy vyvoj.
+          Poté, co COVID zasáhl letecký průmysl, rozhodla jsem se hledat uplatnění v jiném oboru a nakonec jsem se nadchla pro vývoj webu.
         </p>
         <p className='author__text'>
           Kromě IT a létání mám také ráda cestování, neustálé zdokonalování se, aktivní životní styl a přírodu.
           Relaxuji hrou na klavír a posloucháním saxofonové hudby.
         </p>
-
 
         <div className='author__socials'>
           <a className='social__links' href="https://github.com/ICerv" target="blank">
@@ -45,6 +44,6 @@ const Inna = () => {
       </div>
     </div>
   )
-}
+};
 
 export default Inna;

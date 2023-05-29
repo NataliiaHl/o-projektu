@@ -1,5 +1,5 @@
 import React from "react";
-import './style.css'
+import './style.css';
 
 import Inna from "./Inna";
 import Natali from "./Natali";
@@ -19,6 +19,6 @@ const AboutTeam = () => {
       </div>
     </>
   )
-}
+};
 
 export default AboutTeam;

@@ -4,9 +4,9 @@ import { createBrowserRouter, RouterProvider, Outlet } from 'react-router-dom';
 import './style.css';
 import Header from './components/Header';
 import Footer from './components/Footer';
-import HomePage from './pages/HomePage'
-import AboutProject from './pages/AboutProject'
-import AboutTeam from './pages/AboutTeam'
+import HomePage from './pages/HomePage';
+import AboutProject from './pages/AboutProject';
+import AboutTeam from './pages/AboutTeam';
 import ErrorPage from './pages/ErrorPage';
 
 const App = () => {
@@ -39,7 +39,7 @@ const router = createBrowserRouter([
       },
     ]
   },
-  
+
 ]);
 
 createRoot(

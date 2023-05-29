@@ -2,7 +2,7 @@ import React from "react";
 import { useState, useEffect } from "react";
 import SyntaxHighlighter from 'react-syntax-highlighter';
 import TypeWriterEffect from 'react-typewriter-effect';
-import './style.css'
+import './style.css';
 
 
 const HomePage = () => {
@@ -56,15 +56,14 @@ const HomePage = () => {
           eraseSpeed={100}
         />
         <p className="homepage-subheading">
-          Zlepši své psaní a získej nejen rychlost, přesnost a schopnost psát naslepo, ale zvýš svou produktivitu a šanci na trhu práce.
+          Zlepši své psaní všemi deseti, získej rychlost, přesnost a schopnost psát naslepo...
         </p>
       </div>
       <div className="homepage-image" >
-        <img src="./img/laptop.png" alt="laptop_photo" />
+        <img src={require('./img/laptop.png')} alt="Laptop image" />
       </div>
     </section>
-
   )
-}
+};
 
-export default HomePage
+export default HomePage;
