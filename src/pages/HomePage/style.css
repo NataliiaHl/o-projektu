@@ -1,5 +1,5 @@
 .homepage-section {
-  height: 80vh;
+  height: auto;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -14,6 +14,10 @@
   color: #fff;
   opacity: 0.8;
   height: auto;
+}
+
+.homepage-heading {
+  width: 90vw;
 }
 
 .homepage-heading h1 {
@@ -69,7 +73,7 @@ p.homepage-subheading {
     line-height: 2rem;
   }
 
-  .homepage-image {
+  .homepage-image img {
     width: 40vw;
   }
 }
