@@ -1,5 +1,5 @@
 .homepage-section {
-  height: auto;
+  height: 80vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -16,10 +16,6 @@
   height: auto;
 }
 
-.homepage-heading {
-  width: 90vw;
-}
-
 .homepage-heading h1 {
   text-transform: uppercase;
   margin-bottom: 1rem;
@@ -29,27 +25,27 @@
 .homepage-subheading p {
   font-size: 1rem;
   margin-top: 1.25rem;
-  line-height: 1.5rem;
+  line-height: 2rem;
 }
 
 p.homepage-subheading {
   opacity: 0.8;
   margin-top: 2rem;
-  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
 }
 
 .homepage-image img {
   width: 70vw;
   margin-top: 1rem;
-  opacity: 0.7;
 }
 
-pre.box.blinking-cursor {
-  font-size: 3rem;
-  font-weight: bold;
-  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+pre.blinking-cursor {
+  margin-top: 7rem;
 }
 
+.blinking-cursor::after {
+  content: "|";
+  animation: blink 1s step-end infinite;
+}
 
 
 @media (min-width: 768px) {
@@ -87,17 +83,6 @@ pre.box.blinking-cursor {
     width: 40vw;
   }
 }
-
-pre.blinking-cursor {
-  margin-top: 10rem;
-}
-
-.blinking-cursor::after {
-  content: "|";
-  animation: blink 1s step-end infinite;
-}
-
-/* .custom-highlighter {} */
 
 @keyframes blink {
 
