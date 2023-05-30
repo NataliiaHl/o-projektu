@@ -1,37 +1,45 @@
 import React from "react";
 import { useState, useEffect } from "react";
-import SyntaxHighlighter from 'react-syntax-highlighter';
-import TypeWriterEffect from 'react-typewriter-effect';
 import './style.css';
 
 
 const HomePage = () => {
   const banner = "Program pro trénink psaní na klávesnici";
 
-  const textState = ["istyping", "isdeleting"];
-  const [typing, setTyping] = useState(textState[0]);
+  const typingState = "istyping"
+  const deletingState = "isdeleting"
 
+  const [typing, setTyping] = useState(typingState);
   const [text, setText] = useState("");
 
+  //Funkce pro zpozdeni mezi psanim a mazanim textu
   const sleep = (ms) => {
     return new Promise((resolve) => setTimeout(resolve, ms));
   }
 
   useEffect(() => {
+    //Efekt spusteny pri kazde zmene hodnoty 'text' nebo 'typing'
     const timeout = setTimeout(() => {
+      //Pokud probiha psani a text jeste nei cely, pridej dalsi znak
       if (typing === "istyping" && text !== banner) {
         setText(banner.slice(0, text.length + 1));
+
+        //Pokud je text jiz cely a probiha psani, pockej 2sec a prepni do mazani
       } else if (text === banner && typing === "istyping") {
         sleep(2000).then(() => {
-          setTyping(textState[1]);
+          setTyping(deletingState);
         });
+
+        //Pokud probiha mazani a text neni prazdny, odeber posledni znak
       } else if (
         (text === banner && typing === "isdeleting") ||
         typing === "isdeleting"
       ) {
         setText(banner.slice(0, text.length - 1));
+
+        //Pokud je text zkracen na 2 nebo mene znaky, prepni do psani
         if (text.length <= 2) {
-          setTyping(textState[0]);
+          setTyping(typingState);
         }
       }
     }, 100);
@@ -43,26 +51,21 @@ const HomePage = () => {
     <section className="homepage-section active">
       <div className="homepage">
         <h1 className="homepage-heading">
-          <SyntaxHighlighter className="blinking-cursor" >
+          <pre className="box blinking-cursor"
+            style={{ whiteSpace: 'pre-wrap' }}
+          >
             {text}
-          </SyntaxHighlighter>
+          </pre>
         </h1>
-        <TypeWriterEffect
-          textStyle={{ fontFamily: 'Red Hat Display' }}
-          startDelay={100}
-          cursorColor="black"
-          text=""
-          typeSpeed={100}
-          eraseSpeed={100}
-        />
         <p className="homepage-subheading">
           Zlepši své psaní všemi deseti, získej rychlost, přesnost a schopnost psát naslepo...
         </p>
+
       </div>
       <div className="homepage-image" >
         <img src={require('./img/laptop.png')} alt="Laptop image" />
       </div>
-    </section>
+    </section >
   )
 };
 

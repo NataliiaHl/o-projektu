@@ -35,12 +35,22 @@
 p.homepage-subheading {
   opacity: 0.8;
   margin-top: 2rem;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
 }
 
 .homepage-image img {
   width: 70vw;
   margin-top: 1rem;
+  opacity: 0.7;
 }
+
+pre.box.blinking-cursor {
+  font-size: 3rem;
+  font-weight: bold;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+
 
 @media (min-width: 768px) {
   .homepage-section {
@@ -86,6 +96,8 @@ pre.blinking-cursor {
   content: "|";
   animation: blink 1s step-end infinite;
 }
+
+/* .custom-highlighter {} */
 
 @keyframes blink {
 

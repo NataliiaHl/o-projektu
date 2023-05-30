@@ -15,7 +15,7 @@ const AboutProject = () => {
           Většina z nás, kteří používáme počítače, jistě vyzkoušela nějakou aplikaci pro psaní všemi deseti. Ale jen málokdo vydržel celý nudný výukový proces a skutečně dosáhl pokroku v ovládání této dovednosti. My jsme se právě staly jedněmi z těch, kdo to nakonec vzdaly. Proto jsme si řekly, že když už jsme se nadchly pro IT a práce s klávesnicí se stala naší denní rutinou, měly bychom se naučit tuto dovednost a usnadnit si tak práci. To nás přivedlo k myšlence vytvořit vlastní aplikaci, která nás k tomu bude motivovat a zároveň nabídne možnost všem, kteří by si chtěli vylepšit své schopnosti psaní.
         </p>
         <p className="project-text">
-          Jedním z našich dalších cílů bylo vytvořit aplikaci, která nám umožní nadále rozšiřovat a zdokonalovat naše technické dovednosti prostřednictvím implementace her a dalších inovativních funkcionalit.
+          Práce na aplikaci nám umožní nadále rozšiřovat a zdokonalovat naše technické dovednosti prostřednictvím implementace her a dalších inovativních funkcionalit.
         </p>
         <h1 className="project-title">Proces vývoje aplikace</h1>
         <p className="project-text">
